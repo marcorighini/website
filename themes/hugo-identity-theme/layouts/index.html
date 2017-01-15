@@ -13,13 +13,13 @@
 		<title>{{ .Site.Title }}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="{{ .Site.BaseURL }}/images/icons/{{ .Site.Params.favicon  }}" type="image/x-icon" />
-		<link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}/images/icons/{{ .Site.Params.appletouchicon  }}" />
-		<!--[if lte IE 8]><script src="{{ .Site.BaseURL }}/assets/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/main.css" />
-		<!--[if lte IE 9]><link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/ie9.css" /><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/ie8.css" /><![endif]-->
-		<noscript><link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/css/noscript.css" /></noscript>
+		<link rel="icon" href="images/icons/{{ .Site.Params.favicon  }}" type="image/x-icon" />
+		<link rel="apple-touch-icon-precomposed" href="images/icons/{{ .Site.Params.appletouchicon  }}" />
+		<!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<style>
 		body {
 		height: 100%;
@@ -44,7 +44,7 @@
 				<!-- Main -->
 					<section id="main">
 						<header>
-							<span class="avatar"><img src="{{ .Site.BaseURL }}/images/avatars/{{ .Site.Params.avatar  }}" alt="" /></span>
+							<span class="avatar"><img src="images/avatars/{{ .Site.Params.avatar  }}" alt="" /></span>
 							<h1>{{ .Site.Params.name  }}</h1>
 							<p>{{ .Site.Params.position  }}</p>
 						</header>
@@ -71,7 +71,7 @@
 			</div>
 
 		<!-- Scripts -->
-			<!--[if lte IE 8]><script src="{{ .Site.BaseURL }}/assets/js/respond.min.js"></script><![endif]-->
+			<!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
 			<script>
 				if ('addEventListener' in window) {
 					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
