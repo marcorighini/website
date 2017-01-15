@@ -68,14 +68,14 @@ title = "Marco Righini - Software Engineer"
 		link = "https://github.com/marcorighini"
 
 	[[params.social]]
+			title = "StackOverflow"
+			icon = "fa-stack-overflow"
+			link = "http://stackoverflow.com/users/story/5661456"
+
+	[[params.social]]
 		title = "LinkedIn"
 		icon = "fa-linkedin"
 		link = "https://it.linkedin.com/in/righinimarco"
-
-	[[params.social]]
-		title = "Twitter"
-		icon = "fa-twitter"
-		link = "https://twitter.com/mrighini88"
 
 	[[params.social]]
 		title = "SlideShare"
